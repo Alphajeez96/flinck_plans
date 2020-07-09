@@ -89,7 +89,7 @@ button:not(:disabled) {
     font-style: italic;
 }
 
-.services>div>h3 {
+.services>.container>div>h3 {
     text-align: center;
     color: #9C410E;
     font-weight: normal;
