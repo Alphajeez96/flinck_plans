@@ -171,3 +171,25 @@ div>.photo>h5 {
     grid-row-start: 4;
     grid-row-end: 9;
 }
+
+.gallery__btn__div {
+    text-align: center;
+    margin-top: 10px
+}
+
+.gallery__btn__div button {
+    display: inline-block;
+}
+
+.testimonials {
+    margin-top: 80px;
+    font-family: 'Apple Chancery';
+    font-style: italic;
+}
+
+.testimonials>.container>div>h3 {
+    text-align: center;
+    color: #9C410E;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
