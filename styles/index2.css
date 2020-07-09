@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html {
+    font-family: 'Apple Chancery';
+}
+
+.hero {
+    background: url(../assets/groom-kissing-bride-neck-1488312\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+header {
+    /* padding: 30px; */
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
+
+.nav-item a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.045em;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.phone {
+    position: relative;
+    top: 5px
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    border-color: #DBA7C1;
+    color: white;
+}
+
+.palm-view-hero {
+    margin-top: 250px;
+    color: white;
+}
+
+.palm-view-hero h1 {
+    font-family: 'Apple Chancery';
+    font-style: italic;
+    font-weight: normal;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.palm-view-hero p {
+    font-size: 14px;
+    position: relative;
+    left: 60px;
+}
