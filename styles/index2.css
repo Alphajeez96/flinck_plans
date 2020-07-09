@@ -8,7 +8,7 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 800px;
 }
 
 header {
@@ -25,11 +25,6 @@ header {
     letter-spacing: 0.045em;
     font-size: 14px;
     font-weight: 300;
-}
-
-.phone {
-    position: relative;
-    top: 5px
 }
 
 [type=button]:not(:disabled),
@@ -54,8 +49,15 @@ button:not(:disabled) {
     text-align: center;
 }
 
-.palm-view-hero p {
-    font-size: 14px;
-    position: relative;
-    left: 60px;
+.about {
+    margin-top: 80px;
+    font-family: 'Apple Chancery';
+    font-style: italic;
+}
+
+.about>div>h3 {
+    text-align: center;
+    color: #9C410E;
+    font-weight: normal;
+    margin-bottom: 40px;
 }
