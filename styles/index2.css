@@ -84,12 +84,33 @@ button:not(:disabled) {
 
 .services {
     margin-top: 80px;
-    margin-bottom: 80px;
     font-family: 'Apple Chancery';
     font-style: italic;
 }
 
 .services>.container>div>h3 {
+    text-align: center;
+    color: #9C410E;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+div>.photo>h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.gallery {
+    margin-top: 80px;
+    font-family: 'Apple Chancery';
+    font-style: italic;
+}
+
+.gallery>.container>div>h3 {
     text-align: center;
     color: #9C410E;
     font-weight: normal;
