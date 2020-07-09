@@ -31,8 +31,9 @@ header {
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled),
 button:not(:disabled) {
-    border-color: #DBA7C1;
-    color: white;
+    border: 1px solid #9C410E;
+    color: black;
+    background: #FFFFFF;
 }
 
 .palm-view-hero {
@@ -50,7 +51,7 @@ button:not(:disabled) {
 }
 
 .about {
-    margin-top: 80px;
+    padding-top: 100px;
     font-family: 'Apple Chancery';
     font-style: italic;
 }
@@ -63,7 +64,7 @@ button:not(:disabled) {
 }
 
 .about__me {
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 .about__me p {
@@ -71,4 +72,26 @@ button:not(:disabled) {
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 0.015em;
+}
+
+.lady__background img {
+    width: inherit;
+    height: 87vh;
+    position: relative;
+    bottom: 100px;
+    object-fit: cover;
+}
+
+.services {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: 'Apple Chancery';
+    font-style: italic;
+}
+
+.services>div>h3 {
+    text-align: center;
+    color: #9C410E;
+    font-weight: normal;
+    margin-bottom: 40px;
 }
