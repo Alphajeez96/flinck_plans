@@ -1,14 +1,15 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
     html {
         font-family: 'Apple Chancery';
+        scroll-behavior: smooth;
     }
     
     .hero {
-        background: url(../assets/General/groom-kissing-bride-neck-1488312\ 1.png);
+        background: url(../assets/General/hero.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 800px;
+        height: 770px;
     }
     
     header {
@@ -31,7 +32,7 @@
     [type=reset]:not(:disabled),
     [type=submit]:not(:disabled),
     button:not(:disabled) {
-        border: 1px solid #9C410E;
+        /* border: 1px solid #9C410E; */
         color: black;
         background: #FFFFFF;
     }
@@ -48,6 +49,7 @@
         line-height: 40px;
         color: #FFFFFF;
         text-align: center;
+        font-size: 62px;
     }
     
     .wedding__plan {
@@ -77,10 +79,12 @@
     }
     
     .about__me p {
+        font-family: 'Open Sans', sans-serif;
         color: #3F3E3E;
         font-size: 20px;
-        line-height: 40px;
-        letter-spacing: 0.015em;
+        line-height: 30px;
+        letter-spacing: 0.012em;
+        font-style: normal;
     }
     
     .lady__background img {
@@ -90,6 +94,13 @@
         position: relative;
         bottom: 100px;
         object-fit: cover;
+    }
+    
+    .about__me__btn button {
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        border: 1px solid #9C410E;
     }
     
     .services {
@@ -112,6 +123,15 @@
         font-size: 18px;
         line-height: 25px;
         color: #000000;
+    }
+    
+    div>.photo>p {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+        color: #3F3E3E;
     }
     
     .gallery {
@@ -189,6 +209,10 @@
     
     .gallery__btn__div button {
         display: inline-block;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        border: 1px solid #9C410E;
     }
     
     .testimonials {
@@ -378,7 +402,7 @@
     }
     
     form {
-        margin: 30px;
+        margin: 10px 30px 10px 30px;
     }
     
     label {
@@ -390,8 +414,7 @@
         color: white !important;
         float: left;
     }
-    
-    .foot {
+    /* .foot {
         background: #9C410E;
     }
     
@@ -403,8 +426,65 @@
         line-height: 31px;
     }
     
-    .foot .container .row {
-        padding-top: 40px;
+
+    
+    div .rights {
+        text-align: center;
+        margin-top: 10px;
+    } */
+    /* footer styles here` */
+    
+    .foot {
+        margin-top: -15px;
+        /* width: 1440px; */
+        /* height: 420px; */
+        background: #9C410E;
+        color: white;
+        padding-bottom: 0px;
+    }
+    
+    .foot-head {
+        padding-top: 25px
+    }
+    
+    .head-caption {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 46px;
+        margin-top: 40px;
+        /* identical to box height */
+        /* text-align: left; */
+        color: #FFFFFF;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0px;
+        line-height: 24px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        /* font-weight: normal; */
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+        color: #FFFFFF;
+    }
+    
+    ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .social-icon img {
+        height: 3vh;
+    }
+    
+    ul li a:hover {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
     }
     
     div .rights {
