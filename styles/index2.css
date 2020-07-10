@@ -2,6 +2,7 @@
                             html {
                                 font-family: 'Apple Chancery';
                                 scroll-behavior: smooth;
+                                overflow-x: hidden;
                             }
                             
                             .hero {
@@ -54,6 +55,11 @@
                             /* media Queries */
                             
                             @media screen and (max-width: 576px) {
+                                html {
+                                    font-family: 'Apple Chancery';
+                                    scroll-behavior: smooth;
+                                    overflow-x: hidden !important;
+                                }
                                 .palm-view-hero {
                                     margin-top: 200px;
                                     color: white;
