@@ -351,7 +351,7 @@
         text-align: center;
         color: #9C410E;
         font-weight: normal;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
     }
     
     .contact__form {
@@ -389,4 +389,25 @@
         background: #9C410E !important;
         color: white !important;
         float: left;
+    }
+    
+    .foot {
+        background: #9C410E;
+    }
+    
+    ol li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        color: white;
+        line-height: 31px;
+    }
+    
+    .foot .container .row {
+        padding-top: 40px;
+    }
+    
+    div .rights {
+        text-align: center;
+        margin-top: 10px;
     }
