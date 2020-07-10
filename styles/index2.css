@@ -4,7 +4,7 @@
     }
     
     .hero {
-        background: url(../assets/groom-kissing-bride-neck-1488312\ 1.png);
+        background: url(../assets/General/groom-kissing-bride-neck-1488312\ 1.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -48,6 +48,15 @@
         line-height: 40px;
         color: #FFFFFF;
         text-align: center;
+    }
+    
+    .wedding__plan {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .wedding__plan button {
+        display: inline-block;
     }
     
     .about {
@@ -353,7 +362,7 @@
         margin-top: 10px;
     }
     
-    .card {
+    .parent__div .card {
         background: white;
         display: inline-block;
         margin: 50px;
