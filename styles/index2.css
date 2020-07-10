@@ -343,3 +343,40 @@
         font-weight: normal;
         margin-bottom: 40px;
     }
+    
+    .contact__form {
+        background: url(../assets/vectors/Mapsicle\ Map.png);
+    }
+    
+    .parent__div {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .card {
+        background: white;
+        display: inline-block;
+        margin: 50px;
+        width: 35%;
+        height: 75%;
+    }
+    
+    .form-control.is-invalid,
+    .was-validated .form-control:invalid {
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+    }
+    
+    form {
+        margin: 30px;
+    }
+    
+    label {
+        float: left;
+    }
+    
+    .btn-outline-mine {
+        background: #9C410E !important;
+        color: white !important;
+        float: left;
+    }
